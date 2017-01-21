@@ -4,24 +4,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog</title>
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rubik" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="img/icons/font/flaticon.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/response.css">
   </head>
   <body>
+    <div class="menu-principal">
+      <i class="flaticon-bars menu-abrir"></i>
 
-    <nav>
-      <div class="menu-principal">
         <div class="logo">
           <h1>Meu Blog</h1>
         </div>
 
+        <nav class="menu-nav">
+          <i class="flaticon-cross menu-fechar"></i>
         <div class="menu-blog">
           <ul>
             <li><a href="#">Publicar Post</a></li>
             <li><a href="#">Editar Post</a></li>
           </ul>
         </div>
+        </nav>
 
         <a href="#">
           <div class="user">
@@ -31,9 +36,7 @@
             <span>Maria da Silva</span>
           </div>
         </a>
-
-      </div>
-    </nav>
+    </div>
 
     <section>
       <div class="container">
@@ -104,7 +107,6 @@
               <p>Vôlei</p>
             </a>
           </div>
-
           <!-- segunda linha -->
           <div class="icons-modalidades">
             <a href="#">
@@ -158,6 +160,8 @@
         <p>Desenvolvido para praticar CSS e JS</p>
       </div>
     </footer>
+
+    <script src="js/menu.js"></script>
 
   </body>
 </html>
